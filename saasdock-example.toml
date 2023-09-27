@@ -1,0 +1,13 @@
+name = "Default Saaswrap Project"
+[environment]
+node = '14'
+[subscription_types]
+free = { active = true, dollars_month = 0, dollars_year = 0 }
+basic = { active = false, dollars_month = 6, dollars_year = 66 }
+standard = { active = true, dollars_month = 10, dollars_year = 110 }
+premium = { active = false, dollars_month = 15, dollars_year = 165 }
+pro = { active = false, dollars_month = 20, dollars_year = 220 }
+ultimate = { active = false, dollars_month = 30, dollars_year = 330 }
+[stripe]
+key = "<key>"
+
